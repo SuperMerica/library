@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="library.css" />
+    <title>Library</title>
+</head>
+<body>
+    <main>
+        <div id="input-container">
+            <input id="input-box-title" class="input-box" type="text" placeholder="Enter book title here">
+            <input id="input-box-author" class="input-box" type="text" placeholder="Enter book author here">
+            <input id="input-box-pages" class="input-box" type="number" placeholder="Enter book page count here">
+            <label for="input-box-read" id="input-box-read-label">Have you read this book?</label>
+            <select id="input-box-read" class="input-box">
+                <option value="true">Yes</option>
+                <option value="false">No</option>
+            </select>
+            <button id="input-btn-add" class="input-btn">Add book</button>
+            <button id="input-btn-view" class="input-btn">View Library</button>
+        </div>
+        <div id="result-display">
+        </div>
+    </main>
+<script src="library.js"></script>
+</body>
+</html>
